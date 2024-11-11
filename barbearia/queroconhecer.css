@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(139, 139, 139); /* Cor de fundo para a página */
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    min-height: 100vh;
+}
+
+/* Janela de serviços */
+.services-window {
+    background-color: #333; /* Fundo cinza escuro */
+    color: #fff; /* Texto branco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura da janela */
+}
+
+/* Título */
+.services-window h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Lista de serviços */
+.service-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Itens da lista */
+.service-item {
+    background-color: #444; /* Fundo para os itens da lista */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service-item:hover {
+    background-color: #666; /* Cor de fundo quando passa o mouse */
+}
+
