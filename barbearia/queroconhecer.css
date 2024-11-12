@@ -4,15 +4,31 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(139, 139, 139); /* Cor de fundo para a página */
+    -moz-box-align: center;
+    
+}
+ 
+.formulario {
+    width: 400px;
+    padding: 30px;
+    border:1px solid #0f0202;
+    right: 170px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    right: 170px;
 }
 
 /* Container principal */
 .container {
     display: flex;
-    justify-content:left;
-    align-items:left;
+    justify-content:center;
+    align-items:center;
     min-height: 100vh;
-}
+}   
 
 /* Janela de serviços */
 .services-window {
@@ -23,6 +39,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px; /* Largura da janela */
 }
+
 
 /* Título */
 .services-window h1 {
@@ -54,3 +71,63 @@ body {
     background-color: #666; /* Cor de fundo quando passa o mouse */
 }
 
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+   
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+    
+
+
+
+   
